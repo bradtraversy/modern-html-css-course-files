@@ -1,0 +1,28 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.accordion-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content {
+  display: none; /* Hide content by default */
+}
+
+.accordion-content[aria-hidden='false'] {
+  display: block; /* Show content when aria-hidden is false */
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the first li of it's parent */
+ul li:first-child {
+  background: lightblue;
+}
+
+/* Style the last li of it's parent */
+ul li:last-child {
+  background: lightcoral;
+}
+
+/* Style every odd item */
+ul li:nth-child(odd) {
+  background: lightgreen;
+}
+
+/* Style every even item */
+ul li:nth-child(even) {
+  background: lightyellow;
+}
+
+/* Style every nth Item */
+ul li:nth-child(4) {
+  background: red;
+}
+
+ul li:nth-child(10) {
+  background: red;
+}
+
+/*  Style every 4th item */
+ul li:nth-child(4n) {
+  background: orange;
+}
+
+/* Style the only child */
+ul li:only-child {
+  background: black;
+  color: white;
+}

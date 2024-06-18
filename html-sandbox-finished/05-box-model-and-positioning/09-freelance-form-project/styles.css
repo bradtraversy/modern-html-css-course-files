@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f1f1f1;
+}
+
+.container {
+  width: 400px;
+  margin: 150px auto;
+}
+
+.card {
+  background: #373f4d;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 50px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.card .form-group {
+  margin-bottom: 20px;
+}
+
+.card input[type='text'] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.card button {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(242, 132, 62, 1) 21%,
+    rgba(239, 111, 69, 1) 61%
+  );
+  color: #fff;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(232, 132, 62, 1) 21%,
+    rgba(229, 111, 69, 1) 61%
+  );
+}

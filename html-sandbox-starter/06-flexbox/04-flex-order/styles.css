@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  background-color: coral;
+  border: 1px solid black;
+  padding: 30px;
+  flex: 1;
+}

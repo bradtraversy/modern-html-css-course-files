@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(45deg, #f00, #00f);
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 80px;
+}
+
+.header .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header .menu a {
+  color: #fff;
+}
+
+.header .menu a:hover {
+  color: #f00;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 45px;
+  background: linear-gradient(45deg, #f00, #00f);
+  color: #fff;
+}
+
+.section#home {
+  margin-bottom: 100px;
+}
+
+/* 1. Make the background color for the first paragraph in all sections lightyellow */
+.section p:first-of-type {
+  background: lightyellow;
+}
+
+/* 2. Alternate background colors for all lis #eee and #ddd */
+.section li:nth-child(odd) {
+  background-color: #eee;
+}
+
+.section li:nth-child(even) {
+  background-color: #ddd;
+}
+
+/* 3. Make the background #f4f4f4 and the padding 20px for all sections that have an image */
+.section:has(img) {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* 4. Make the first paragraph after a ul have the background #333, text color #fff and padding of 20px  */
+ul + p {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* 5. Make the color of any links that start with http:// or https:// red  */
+a[href^='http://'],
+a[href^='https://']
+{
+  color: #f00;
+}
+
+/* 6. Make the first link in the first paragraph and the second paragraph of the second section bold */
+.section:nth-of-type(2) p:first-of-type a:first-of-type,
+.section:nth-of-type(2) p:nth-of-type(2) {
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #f4f4f4;
+}
+
+.item {
+  background-color: coral;
+  padding: 1rem;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: 600px 1fr 1fr;
+  /* grid-row-gap: 20px; */
+  /* grid-column-gap: 20px; */
+  /* grid-gap: 20px; */
+  gap: 20px;
+}

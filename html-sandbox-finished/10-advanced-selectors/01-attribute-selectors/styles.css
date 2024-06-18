@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Select by type attribute */
+input[type='email'] {
+  border-color: green;
+}
+
+/* Select by name attribute */
+input[name='name'] {
+  border-color: blue;
+}
+
+/* Select text type and id of name */
+input[type='text'][id='name'] {
+  background: lightblue;
+}
+
+/* Select required inputs */
+input[required] {
+  border-color: red;
+}
+
+/* Select password with a maxlength of 8 */
+input[type='password'][maxlength='8'] {
+  background: green;
+}
+
+/* Select button with type of submit */
+button[type='submit'] {
+  background: purple;
+}
+
+/* Select only links that have a href attribute starting with # */
+a[href^='#'] {
+  color: yellow;
+}
+
+/* Select only links that have a href attribute ending with .com */
+a[href$='.com'] {
+  color: lightgreen;
+}
+
+/* Select only links that have a href attribute containing traversy */
+a[href*='traversy'] {
+  text-decoration: underline;
+}

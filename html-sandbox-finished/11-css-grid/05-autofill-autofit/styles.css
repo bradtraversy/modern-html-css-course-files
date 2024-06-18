@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #f4f4f4;
+}
+
+.item {
+  background-color: coral;
+  border: 1px solid #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

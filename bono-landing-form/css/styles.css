@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: black;
+  color: white;
+  line-height: 1.6;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 64, 50, 0.8),
+      rgba(71, 17, 116, 0.9)
+    ),
+    url('../images/background.jpg') no-repeat center/cover;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header .header-right i {
+  margin-right: 5px;
+}
+
+.header .header-right a {
+  color: white;
+}
+
+.header .header-right a:hover {
+  color: purple;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 200px auto;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  padding: 0 40px;
+}
+
+.main-content form {
+  flex: 1;
+}
+
+.main-content .text-container {
+  flex: 1;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: 0;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 20px;
+  width: 100%;
+  border: 0;
+  background-color: #ff4032;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff5c4d;
+}
+
+/* Text Container */
+.text-container h1 {
+  font-size: 50px;
+  margin: 50px 0 20px;
+  line-height: 1.2;
+}
+
+.text-container {
+  font-size: 18px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .header {
+    padding: 30px 10px 10px;
+  }
+
+  .header,
+  .header .header-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-content {
+    flex-direction: column-reverse;
+    justify-content: start;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .main-content form,
+  .main-content .text-container {
+    width: 100%;
+  }
+
+  .main-content h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .main-content p {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .main-content {
+    margin: 0 auto;
+  }
+
+  .main-content h1 {
+    font-size: 40px;
+  }
+}

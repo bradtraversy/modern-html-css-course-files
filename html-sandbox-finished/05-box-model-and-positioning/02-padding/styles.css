@@ -1,0 +1,24 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  background-color: darkblue;
+  color: white;
+  /* padding: 20px; */
+  width: 300px;
+
+  /* padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  padding-left: 60px; */
+
+  /* T-R-B-L */
+  /* padding: 20px 40px 100px 60px; */
+
+  /* TB-LR */
+  /* padding: 20px 40px; */
+
+  /* T-LR-B */
+  padding: 20px 40px 30px;
+}

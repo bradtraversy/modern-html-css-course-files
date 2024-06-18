@@ -1,0 +1,19 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 900px;
+  margin: 130px auto;
+  background: #f4f4f4;
+  height: 600px;
+}
+
+.logo {
+  max-width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

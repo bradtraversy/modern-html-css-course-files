@@ -1,0 +1,37 @@
+html {
+  /* rem units pertain to the font size of this element, which is 16px by default */
+  /* Same as 10px */
+  /* font-size: 62.5%; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  /* font-size: 20px; */
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0.3rem 0;
+}
+
+ul {
+  font-size: 1.5em;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+}
+
+/* 
+> Child Combinator
++ General Sibling Combinator
+~ Adjacent Sibling Combinator
+*/
+
+/* Get only paragraphs that are direct children of container */
+.container > p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Get only unordered lists that are direct children of container */
+.container > ul {
+  list-style: none;
+}
+
+/* Get only links that are direct children of container */
+.container > a {
+  color: red;
+}
+
+/* Get the immidiate sibling link after h1 */
+.container h1 + a {
+  color: green;
+  font-weight: bold;
+}
+
+/* Get all links that are siblings that come after h1 */
+.container h1 ~ a {
+  color: purple;
+}
+/* get all sibling divs to the direct ul children of the container */
+.container > ul ~ div {
+  background: blue;
+}

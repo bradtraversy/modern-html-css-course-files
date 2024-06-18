@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Heading Colors */
+.card-sporty h2 {
+  color: #e04553;
+}
+
+.card-casual h2 {
+  color: #0d4ba3;
+}
+
+.card-formal h2 {
+  color: #512b22;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.card a:hover {
+  opacity: 0.9;
+}
+
+/* Link Colors */
+.card-sporty a {
+  background-color: #e04553;
+}
+
+.card-casual a {
+  background-color: #0d4ba3;
+}
+
+.card-formal a {
+  background-color: #512b22;
+}
+
+/* Background Images */
+.card-sporty {
+  background: #fff url('./images/sporty.png') no-repeat center right/200px;
+}
+.card-casual {
+  background: #fff url('./images/casual.png') no-repeat center right/200px;
+}
+.card-formal {
+  background: #fff url('./images/formal.png') no-repeat center right/200px;
+}

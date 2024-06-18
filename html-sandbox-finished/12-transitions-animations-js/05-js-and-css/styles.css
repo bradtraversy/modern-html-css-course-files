@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: lightblue;
+  color: #333;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.yellow {
+  color: yellow;
+}

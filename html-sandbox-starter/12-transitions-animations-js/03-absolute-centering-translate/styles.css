@@ -1,0 +1,12 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 130px auto;
+}
+
+.logo {
+  max-width: 30%;
+}

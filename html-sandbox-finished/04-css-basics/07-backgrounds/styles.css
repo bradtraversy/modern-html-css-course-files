@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  /* Background Color */
+  /* background-color: coral; */
+
+  /* Background Image */
+  /* background-image: url('./hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* background-attachment: fixed; */
+
+  background: url('./hero.jpg') no-repeat center/cover;
+
+  /* Linear gradient */
+  /* background: linear-gradient(to bottom, lightblue, darkblue);
+  background: linear-gradient(to left, lightgreen, darkblue);
+  background: linear-gradient(to bottom left, lightgreen, darkblue); */
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 2rem;
+}

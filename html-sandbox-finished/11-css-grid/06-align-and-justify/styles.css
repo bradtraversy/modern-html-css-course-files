@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #f4f4f4;
+  height: 600px;
+}
+
+.item {
+  background-color: coral;
+  padding: 1rem;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 100px);
+  /* justify-content: space-evenly; */
+  /* align-content: space-around; */
+  /* justify-items: stretch; */
+  /* align-items: end; */
+  /* place-content: space-around; */
+  place-items: center;
+}

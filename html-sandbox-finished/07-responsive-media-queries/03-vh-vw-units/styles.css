@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: coral;
+  height: 100vh;
+  /* width: 50vw; */
+}
+
+.container h1 {
+  font-size: 7vw;
+}

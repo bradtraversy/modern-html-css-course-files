@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  background-color: #27264b;
+  color: #433f63;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1100px;
+  background: #f8fafe;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 70px 60px;
+  margin-top: 150px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1; /* Make the card take up equal space */
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 15px;
+  color: #333;
+  background: #f8fafe;
+  margin-bottom: 60px;
+}
+
+/* Heading Background Gradients -  https://cssgradient.io */
+.card-pro h2 {
+  background: linear-gradient(
+    90deg,
+    rgba(194, 227, 255, 1) 13%,
+    rgba(180, 118, 254, 1) 100%
+  );
+  color: #fff;
+}
+
+.card-enterprise h2 {
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 177, 194, 1) 13%,
+    rgba(255, 203, 114, 1) 100%
+  );
+}
+
+/* Price */
+.card .price {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card .price .dollar {
+  font-size: 18px;
+  position: relative;
+  left: -5px;
+}
+
+.card .price .month {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.card .price-info {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.card .main-text {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  background-color: #fff;
+  color: #27264b;
+  border: 1px solid #27264b;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #27264b;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #27264b;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #27264b;
+}
+
+/* List */
+.card ul {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.card ul i {
+  color: #98ca9e;
+  margin-right: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - ARIA Attributes</h1>
+
+    <!-- Aria Label -->
+    <a href="#menu" aria-label="Open Menu" role="button">
+      <svg viewBox="0 0 100 80" width="40" height="40" fill="black">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+      </svg>
+    </a>
+
+    <!-- Aria Labelledby -->
+    <h2 id="fruit-heading">Available Fruit</h2>
+    <ul role="listbox" aria-labelledby="fruit-heading">
+      <li role="option">Apples</li>
+      <li role="option">Bananas</li>
+      <li role="option">Watermelon</li>
+      <li role="option">Grapes</li>
+    </ul>
+
+    <!-- Aria Hidden -->
+    <p aria-hidden="true">This content is hidden.</p>
+    <p aria-hidden="false">This content is not hidden.</p>
+  </body>
+</html>

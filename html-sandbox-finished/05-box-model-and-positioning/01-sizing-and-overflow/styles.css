@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  border: 3px solid green;
+  margin: 20px;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.box-2 {
+  width: 50%;
+}
+
+.box-2 p {
+  width: 50%;
+}
+
+.box-3 {
+  max-width: 800px;
+  /* min-width: 500px; */
+}

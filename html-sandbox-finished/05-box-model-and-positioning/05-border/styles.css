@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+
+  /* Shorthand */
+  border: 2px solid black;
+
+  /* Same as above */
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: red; */
+}
+
+.box-1 {
+  border: none;
+  /* border-SIDE */
+  border-top: solid blue 4px;
+  border-bottom: solid #ff0000 4px;
+}
+
+.box-2 {
+  /* Border radius */
+  border-radius: 10px;
+  /* border-radius: 50%; */
+}
+
+.box-3 {
+  /* Border radius on specific sides */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

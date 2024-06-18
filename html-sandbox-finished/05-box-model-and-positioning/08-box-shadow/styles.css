@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 50px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.box-1 {
+  box-shadow: 10px 10px 10px 2px #000;
+}
+
+.box-2 {
+  box-shadow: 5px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.box-3 {
+  box-shadow: 5px 4px 10px 2px rgba(0, 0, 0, 0.5), -5px 10px 5px red;
+}

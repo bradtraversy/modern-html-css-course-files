@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+}
+
+/* 
+> Child Combinator
++ General Sibling Combinator
+~ Adjacent Sibling Combinator
+*/
+
+/* Get only paragraphs that are direct children of container */
+
+/* Get only unordered lists that are direct children of container */
+
+/* Get only links that are direct children of container */
+
+/* Get the immidiate sibling link after h1 */
+
+/* Get all links that are siblings that come after h1 */
+
