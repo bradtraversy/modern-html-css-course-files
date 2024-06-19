@@ -21,14 +21,15 @@
     <title>Welcome To Tutor</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
       <div class="navbar-flex container">
-        <img src="images/logo.svg" alt="Tutor" />
-
+        <a href="/" aria-label="Logo Home Link">
+          <img src="images/logo.svg" alt="Tutor Logo" />
+        </a>
         <div class="main-menu-items">
           <ul class="main-menu-list">
             <li>
-              <a href="index.html">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#chapters">Chapters</a>
@@ -46,12 +47,20 @@
               <a href="contact.html">Contact</a>
             </li>
             <li>
-              <a href="facebook.com" target="_blank">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                aria-label="Follow Us On Facebook"
+              >
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="twitter.com" target="_blank">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                aria-label="Follow Us On Twitter"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -61,14 +70,21 @@
         <!-- Mobile Menu -->
         <div class="mobile-menu">
           <!-- Hamburger button -->
-          <div class="mobile-menu-toggle">
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open mobile menu"
+            tabindex="0"
+          >
             <i class="fas fa-bars fa-2x"></i>
           </div>
           <!-- Mobile Menu Items -->
           <div class="mobile-menu-items">
             <ul class="mobile-menu-list">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#chapters">Chapters</a>
@@ -86,12 +102,20 @@
                 <a href="contact.html">Contact</a>
               </li>
               <li>
-                <a href="facebook.com" target="_blank">
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  aria-label="Follow Us On Facebook"
+                >
                   <i class="fa-brands fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="twitter.com" target="_blank">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  aria-label="Follow Us On Twitter"
+                >
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
@@ -148,12 +172,46 @@
       <div class="container">
         <p>Follow us on social media for updates and news about our courses.</p>
         <div class="social-icons">
-          <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
-          <a href="#"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
-          <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
-          <a href="#"> <i class="fa-brands fa-linkedin fa-2x"></i> </a>
-          <a href="#"> <i class="fa-brands fa-youtube fa-2x"></i> </a>
-          <a href="#"> <i class="fa-brands fa-pinterest fa-2x"></i> </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            aria-label="Follow Us On Facebook"
+          >
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            aria-label="Follow Us On Twitter"
+          >
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            aria-label="Follow Us On Instagram"
+            ><i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a
+            href="https://linkdin.com"
+            target="_blank"
+            aria-label="Follow Us On Linkdin"
+            ><i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            aria-label="Follow Us On Youtube"
+          >
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </a>
+          <a
+            href="https://pinterest.com"
+            target="_blank"
+            aria-label="Follow Us On Pinterest"
+          >
+            <i class="fa-brands fa-pinterest fa-2x"></i>
+          </a>
         </div>
       </div>
     </section>
